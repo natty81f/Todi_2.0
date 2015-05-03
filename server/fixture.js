@@ -4,6 +4,6 @@ if (Todis.find().count() === 0) {
 	});
 
 	Todis.insert({
-		message: 'Life id better with a glass on wine'
+		message: 'Life is better with a glass on wine'
 	});
 }
