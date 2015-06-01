@@ -1,5 +1,5 @@
 Template.todisList.helpers({
   todis: function() {
-    return Todis.find();
+    return Todis.find({}, {sort: {submitted: -1}});
   }
 });
